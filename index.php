@@ -7,5 +7,5 @@ var_dump($bigDaddy);
 $bigDaddy->setCapacity(600);
 $bigDaddy->forward();
 $bigDaddy->brake();
-$bigDaddy->isFull();
 var_dump($bigDaddy);
+echo $bigDaddy->isFull();
