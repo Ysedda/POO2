@@ -1,10 +1,10 @@
 <?php
 
-requireonce 'Vehicle.php';
-requireonce 'Truck.php';
+require_once 'Vehicle.php';
+require_once 'Truck.php';
 $bigDaddy = new Truck('blue', 2, 'oil', 500);
 var_dump($bigDaddy);
-$bigDaddy->setCargo(600);
+$bigDaddy->setCapacity(600);
 $bigDaddy->forward();
 $bigDaddy->brake();
 $bigDaddy->isFull();
